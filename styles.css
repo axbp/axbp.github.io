@@ -29,8 +29,8 @@ body {
 }
 
 .card {
-    min-height: 90%;
-    min-width: 22em;
+    min-height: 35em;
+    min-width: 17.5em;
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
@@ -108,14 +108,14 @@ body {
     float: left;
 }
 .footer h2 {
-    margin: auto 5px auto calc(1.5em + 5px);
+    margin: auto 5px auto calc(1.5em + 8px);
     line-height: 1.5em;
-    font-size: 1em;
+    font-size: .85em;
     text-align: left;
 }
 .thing h2 {
-    margin: auto 5px auto calc(1.5em + 5px);
+    margin: auto 5px auto calc(1.5em + 8px);
     line-height: 1.5em;
-    font-size: 1em;
+    font-size: .85em;
     text-align: left;
 }
