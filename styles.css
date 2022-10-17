@@ -29,9 +29,22 @@ body {
     )
 }
 
+.build {
+    max-height: 1em;
+    max-width: 1em;
+    margin-top: auto;
+    float: left;
+    position: absolute;
+
+    margin-right: 25em;
+    color: #FFFFFF;
+    font-family: "Gotham";
+    font-weight: bolder;
+}
+
 .card {
     max-height: 40em;
-    max-width: 25em;
+    max-width: 30em;
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
@@ -89,7 +102,7 @@ body {
 .thing {
     display: inline-block;
     height: auto;
-    width: 20em;
+    width: 23em;
     margin-bottom: 4px;
 }
 
