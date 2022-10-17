@@ -86,9 +86,8 @@ body {
 .thing {
     display: inline-block;
     height: auto;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 4px;
-    flex-direction: row;
 }
 
 .footer {
@@ -96,7 +95,6 @@ body {
     height: auto;
     width: 300px;
     margin-top: auto;
-    flex-direction: row;
 }
 
 .skillicon {
