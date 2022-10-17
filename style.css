@@ -24,9 +24,8 @@ body {
 }
 
 .card {
-    height: 87.5vh;
-    width: 50vh;
-    aspect-ratio: 1 / 1.5;
+    min-height: 87.5vh;
+    min-width: 50vh;
     justify-content: center;
     display: flex;
     background: antiquewhite;
@@ -35,5 +34,4 @@ body {
 .card h1{
     font-family: "Gotham";
     font-weight: bold;
-    font-size: 6em;
 }
