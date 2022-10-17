@@ -138,20 +138,20 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 5px;
-    width: 1.5em;
+    width: 20px;
     height: auto;
     float: left;
 }
 .footer h2 {
     margin: 1px 5px auto 0;
-    line-height: 1.5em;
-    font-size: .85em;
+    line-height: 20px;
+    font-size: 15px;
     text-align: left;
 }
 .thing h2 {
     margin: 1px 5px auto 0;
-    line-height: 1.5em;
-    font-size: .85em;
+    line-height: 20px;
+    font-size: 15px;
     text-align: left;
     word-wrap: break-word;
 }
