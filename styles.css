@@ -19,7 +19,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: auto;
     background: #141414;
     background: -webkit-linear-gradient(
         #141414,
@@ -29,8 +30,8 @@ body {
 }
 
 .card {
-    min-height: 35em;
-    min-width: 17.5em;
+    max-height: 40em;
+    max-width: 25em;
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
@@ -88,7 +89,7 @@ body {
 .thing {
     display: inline-block;
     height: auto;
-    max-width: 100%;
+    width: 20em;
     margin-bottom: 4px;
 }
 
@@ -118,4 +119,5 @@ body {
     line-height: 1.5em;
     font-size: .85em;
     text-align: left;
+    word-wrap: break-word;
 }
