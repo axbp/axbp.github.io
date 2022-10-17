@@ -7,5 +7,5 @@
 // if (window.mobileCheck()) {
 //     document.getElementsByClassName("card")[0].remove();
 // } else {
-//     document.getElementsByClassName("mobile")[0].remove();
+document.getElementsByClassName("mobile")[0].remove();
 // }
