@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Gotham";
+    src: url(fonts/GothamBold.ttf) format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Gotham";
+    src: url(fonts/GothamMedium.ttf) format("truetype");
+    font-weight: normal;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background: #141414;
+    background: -webkit-linear-gradient(
+        #141414,
+        #141414,
+        #2d2630
+    )
+}
+
+.card {
+    height: 87.5vh;
+    width: 50vh;
+    aspect-ratio: 1 / 1.5;
+    justify-content: center;
+    display: flex;
+    background: antiquewhite;
+    border-radius: 12px;
+}
+.card h1{
+    font-family: "Gotham";
+    font-weight: bold;
+}
