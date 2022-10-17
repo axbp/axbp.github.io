@@ -42,9 +42,15 @@ body {
 .card h2, a{
     font-family: "Gotham";
     font-weight: normal;
-    font-size: 2em;
     color: rgb(244, 244, 244);
     text-align: center;
+}
+.card h2 {
+    font-size: 2em;
+}
+.profile_link {
+    margin-top: 5px;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
@@ -53,8 +59,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    height: 26vh;
-    width: 26vh;
+    height: 22vh;
+    width: 22vh;
     background: #1a1919;
     border-radius: 100%;
 
@@ -62,4 +68,54 @@ body {
     font-family: "Gotham";
     font-weight: normal;
     text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+    margin: 12px;
+    padding: 8px;
+    background: rgb(25, 25, 25);
+    border-radius: 4px; 
+    font-family: "Gotham";
+    text-align: left;
+}
+
+.thing {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin-bottom: 4px;
+    flex-direction: row;
+}
+
+.footer {
+    display: inline-block;
+    height: auto;
+    width: 300px;
+    margin-top: auto;
+    flex-direction: row;
+}
+
+.skillicon {
+    filter: invert(100%);
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 1.5em;
+    height: auto;
+    float: left;
+}
+.footer h2 {
+    margin: auto 5px auto calc(1.5em + 5px);
+    line-height: 1.5em;
+    font-size: 1em;
+    text-align: left;
+}
+.thing h2 {
+    margin: auto 5px auto calc(1.5em + 5px);
+    line-height: 1.5em;
+    font-size: 1em;
+    text-align: left;
 }
