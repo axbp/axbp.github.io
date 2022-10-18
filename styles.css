@@ -147,6 +147,7 @@ body {
     line-height: 20px;
     font-size: 15px;
     text-align: left;
+    text-size-adjust: auto;
 }
 .thing h2 {
     margin: 1px 5px auto 0;
@@ -154,4 +155,5 @@ body {
     font-size: 15px;
     text-align: left;
     word-wrap: break-word;
+    text-size-adjust: auto;
 }
