@@ -28,8 +28,8 @@ body {
 }
 
 .build {
-    max-height: 1em;
-    max-width: 1em;
+    height: 10px;
+    width: 10px;
     margin-top: auto;
     float: left;
     position: absolute;
