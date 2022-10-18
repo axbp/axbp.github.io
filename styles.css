@@ -35,7 +35,7 @@ body {
     position: absolute;
 
     color: #FFFFFF;
-    font-family: "Gotham";
+    font-family: "Gotham", sans-serif;
     font-weight: bolder;
 }
 
@@ -54,7 +54,7 @@ body {
     border-radius: 8px;
 }
 .mobile h2{
-    font-family: "Gotham";
+    font-family: "Gotham", sans-serif;
     font-weight: bold;
     color: rgb(244, 244, 244);
     text-align: center;
@@ -81,7 +81,7 @@ body {
     border-radius: 8px;
 }
 .card h2, a{
-    font-family: "Gotham";
+    font-family: "Gotham", sans-serif;
     font-weight: normal;
     color: rgb(244, 244, 244);
     text-align: center;
@@ -103,7 +103,7 @@ body {
     border-radius: 100%;
 
     color: rgb(255, 255, 255);
-    font-family: "Gotham";
+    font-family: "Gotham", sans-serif;
     font-weight: normal;
     text-align: center;
 }
@@ -117,7 +117,7 @@ body {
     padding: 8px;
     background: rgb(25, 25, 25);
     border-radius: 4px; 
-    font-family: "Gotham";
+    font-family: "Gotham", sans-serif;
     text-align: left;
 }
 
