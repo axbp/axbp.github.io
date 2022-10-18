@@ -30,7 +30,7 @@ body {
 .build {
     height: 10px;
     width: 10px;
-    margin-top: auto;
+    margin-top: cover;
     float: left;
     position: absolute;
 
@@ -80,7 +80,7 @@ body {
     border: 7px solid transparent;
     border-radius: 8px;
 }
-p{
+p, a{
     font-family: "Gotham", sans-serif;
     font-weight: normal;
     color: rgb(244, 244, 244);
