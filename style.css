@@ -144,11 +144,9 @@ body {
 .footer h2 {
     font-size: 15px;
     text-align: left;
-    text-size-adjust: auto;
 }
 .thing h2 {
     font-size: 15px;
     text-align: left;
     word-wrap: break-word;
-    text-size-adjust: auto;
 }
