@@ -154,3 +154,10 @@ body {
     word-wrap: break-word;
     text-size-adjust: auto;
 }
+
+@media screen and (min-width: 300px) and (max-width: 767px){
+    /* Hide captions class  */
+    .h2 {
+       display: block !important;
+    }
+  }
