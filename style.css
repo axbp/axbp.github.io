@@ -74,7 +74,7 @@ body {
     width: 400px;
     text-align: center;
     border-radius: 8px;
-    overflow: hidden;
+    /* overflow: hidden; */
     background: linear-gradient(rgb(29, 29, 29) 0 0) padding-box, linear-gradient(rgb(35, 35, 35), rgb(23, 23, 23)) border-box;
     box-shadow: 0px 10px 25px #141414;
     border: 7px solid transparent;
