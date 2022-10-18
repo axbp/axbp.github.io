@@ -125,7 +125,7 @@ body {
 .thing {
     height: auto;
     width: 380px;
-    margin-bottom: 4px;
+    margin: 0 0 4px 0;
 }
 
 .footer {
@@ -144,15 +144,11 @@ body {
     float: left;
 }
 .footer h2 {
-    margin: 1px 5px auto 0;
-    line-height: 20px;
     font-size: 15px;
     text-align: left;
     text-size-adjust: auto;
 }
 .thing h2 {
-    margin: 1px 5px auto 0;
-    line-height: 20px;
     font-size: 15px;
     text-align: left;
     word-wrap: break-word;
