@@ -28,7 +28,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     background: #141414;
     background: -webkit-linear-gradient(
         #141414,
