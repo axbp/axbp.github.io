@@ -32,7 +32,7 @@ body {
     background: -webkit-linear-gradient(
         #141414,
         #141414,
-        #2d2630
+        #533326
     );
     background-size: cover;
 
@@ -79,6 +79,7 @@ body {
     display: inline-flex;
     width: 100%;
     height: auto;
+    margin: 5px 0;
     color: rgb(244, 244, 244);
 }
 
