@@ -96,11 +96,3 @@ body {
     float: left;
     filter: invert();
 }
-
-.footer {
-    color: rgb(244, 244, 244);
-    margin: 0;
-    font-size: 10px;
-    position: absolute;
-    margin: 100% 0 0 0;
-}
