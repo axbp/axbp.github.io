@@ -1,17 +1,27 @@
 @font-face {
     font-family: "Gotham";
-    src: url(resources/GothamBold.ttf) format("truetype");
+    src: url('resources/gothambold.woff2') format('woff2'),
+         url('resources/gothambold.woff') format('woff'),
+         url("resources/gothambold.ttf") format("truetype");
     font-weight: bolder;
+    font-style: bolder;
 }
 @font-face {
     font-family: "Gotham";
-    src: url(resources/GothamMedium.ttf) format("truetype");
+    src: url('resources/gothammedium.woff2') format('woff2'),
+         url('resources/gothammedium.woff') format('woff'),
+         url("resources/gothammedium.ttf") format("truetype");
     font-weight: bold;
+    font-style: bold;
 }
 @font-face {
     font-family: "Gotham";
-    src: url(resources/GothamBook.ttf) format("truetype");
+    src: 
+        url("resources/gothambook.ttf") format("truetype"),
+        url('resources/gothambook.woff2') format('woff2'),
+        url('resources/gothambook.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
 }
 body > * {
     overflow: hidden;
@@ -28,13 +38,17 @@ body {
         #2d2630
     );
     background-size: cover;
+
+    font-family: "Gotham";
+    font-weight: normal;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: auto;
     width: 400px;
+    margin: 0 auto;
     background: linear-gradient(rgb(29, 29, 29) 0 0) padding-box, linear-gradient(rgb(35, 35, 35), rgb(23, 23, 23)) border-box;
     box-shadow: 0 10px 25px #141414;
     border: 7px solid transparent;
@@ -53,4 +67,43 @@ body {
     color: rgb(244, 244, 244);
     text-decoration: none;
     font-size: 24px;
+}
+
+.information {
+    height: auto;
+    width: auto;
+    margin: 15px 10px 10px 10px;
+    padding: 5px;
+    background: rgb(25, 25, 25);
+    border-radius: 4px;
+}
+
+.object {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    color: rgb(244, 244, 244);
+}
+
+.object p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: normal;
+    font-size: 16px;
+}
+.object img {
+    width: auto;
+    height: 28px;
+    margin-right: 5px;
+    float: left;
+    filter: invert();
+}
+
+.footer {
+    color: rgb(244, 244, 244);
+    margin: 0;
+    font-size: 10px;
+    position: absolute;
+    left: 5px;
+    bottom: 0;
 }
