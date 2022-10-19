@@ -30,91 +30,29 @@ body {
     background-size: cover;
 }
 
-.build {
-    height: 10px;
-    width: 10px;
-    float: left;
-    margin: 0;
-    position: absolute;
-    color: rgb(244, 244, 244);
-    font-family: "Gotham", sans-serif;
-    font-weight: normal;
-}
-
 .card {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
     width: 400px;
-    text-align: center;
-    border-radius: 8px;
-    overflow: hidden;
     background: linear-gradient(rgb(29, 29, 29) 0 0) padding-box, linear-gradient(rgb(35, 35, 35), rgb(23, 23, 23)) border-box;
-    box-shadow: 0px 10px 25px #141414;
+    box-shadow: 0 10px 25px #141414;
     border: 7px solid transparent;
     border-radius: 8px;
-}
-p, a{
-    display: block;
+
     font-family: "Gotham", sans-serif;
-    font-weight: normal;
-    color: rgb(244, 244, 244);
-    text-align: center;
-}
-.profile_link {
-    margin-top: 5px;
-    font-size: 24px;
-    text-decoration: none;
 }
 
 .avatar {
-    display: block;
-    margin: 10px auto 10px auto;
-    width: 125px;
-    height: 125px;
+    height: 150px;
+    width: auto;
+    margin: 10px auto;
     border-radius: 100%;
-
-    color: rgb(255, 255, 255);
-    font-family: "Gotham", sans-serif;
-    font-weight: normal;
-    text-align: center;
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: auto;
-    margin: 12px;
-    padding: 8px;
-    background: rgb(25, 25, 25);
-    border-radius: 4px; 
-}
-
-.thing {
-    height: auto;
-    width: auto;
-    margin: 0 0 4px 0;
-}
-
-.footer {
-    height: auto;
-    width: 300px;
-    margin-top: auto;
-}
-
-.skillicon {
-    filter: invert(100%);
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 5px;
-    width: 20px;
-    height: auto;
-    float: left;
-}
-.footer h2 {
-    font-size: 15px;
-    text-align: left;
-}
-.thing h2 {
-    font-size: 15px;
-    text-align: left;
-    word-wrap: break-word;
+.profile-link {
+    margin: 0 auto;
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+    font-size: 24px;
 }
