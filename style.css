@@ -23,18 +23,36 @@
     font-weight: normal;
     font-style: normal;
 }
+
+:root {
+    --grad1: #141414,
+    #141414,
+    #141414,
+    #533326;
+}
+
+@keyframes breathe {
+    0% {
+        background-position: 0% 40%;
+    }
+    50% {
+        background-position: 0% 80%;
+    }
+    100% {
+        background-position: 0% 40%;
+    }
+}
+
 body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #141414;
-    background: -webkit-linear-gradient(
-        #141414,
-        #141414,
-        #533326
-    );
-    background-size: cover;
+    background: -moz-linear-gradient(var(--grad1));
+    background: -webkit-linear-gradient(var(--grad1));
+    background-size: 100% 150%;
+    animation: breathe 10s ease-in-out infinite;
 
     font-family: "Gotham";
     font-weight: normal;
