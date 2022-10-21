@@ -63,7 +63,7 @@ body {
     flex-direction: column;
     height: auto;
     width: 25em;
-    max-width: 70vw;
+    max-width: 95vw;
     margin: auto;
     background: linear-gradient(rgb(29, 29, 29) 0 0) padding-box, linear-gradient(rgb(35, 35, 35), rgb(23, 23, 23)) border-box;
     box-shadow: 0 10px 25px #141414;
