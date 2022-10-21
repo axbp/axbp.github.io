@@ -33,13 +33,13 @@
 
 @keyframes breathe {
     0% {
-        background-position: 0% 40%;
+        background-position: 0% 50%;
     }
     50% {
-        background-position: 0% 80%;
+        background-position: 0% 100%;
     }
     100% {
-        background-position: 0% 40%;
+        background-position: 0% 50%;
     }
 }
 
@@ -62,7 +62,8 @@ body {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 400px;
+    width: 40vw;
+    max-width: 50vw;
     margin: 0 auto;
     background: linear-gradient(rgb(29, 29, 29) 0 0) padding-box, linear-gradient(rgb(35, 35, 35), rgb(23, 23, 23)) border-box;
     box-shadow: 0 10px 25px #141414;
