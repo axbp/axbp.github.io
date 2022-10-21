@@ -62,7 +62,6 @@ body {
     display: flex;
     flex-direction: column;
     height: auto;
-    max-height: 80vh;
     width: 25em;
     max-width: 70vw;
     margin: auto;
