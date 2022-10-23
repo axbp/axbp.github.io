@@ -36,7 +36,7 @@
         background-position: 0% 50%;
     }
     50% {
-        background-position: 0% 100%;
+        background-position: 0% 80%;
     }
     100% {
         background-position: 0% 50%;
@@ -51,7 +51,7 @@ body {
     background: #141414;
     background: -moz-linear-gradient(var(--grad1));
     background: -webkit-linear-gradient(var(--grad1));
-    background-size: 100% 150%;
+    background-size: 100% 200%;
     animation: breathe 10s ease-in-out infinite;
 
     font-family: "Gotham";
